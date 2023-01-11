@@ -1,34 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 header {
-  background-color: black;
+  background-color: #000000;
   color: #60bcf9;
   text-align: center;
-  font-size: 25px;
-  line-height: 5.5;
+  font-size: 28px;
+  line-height: 5.4;
   font-weight: 900;
   font-family: "Bungee Hairline";
 }
+a {
+  color: #3a42a4;
+}
 body {
-  background-color: rgb(233, 233, 236);
+  background-color: #e9e9ec;
   color: black;
+}
+.logoP {
+  float: left;
 }
 #logofix {
   float: left;
-  font-size: 70px;
+  font-size: 65px;
 }
 #logoiso {
   float: right;
 }
 nav {
-  font-size: 20;
+  margin: 1.5%;
+  font-size: 19px;
+  line-height: 1.5;
+}
+.títulos {
+  color: #60bcf9;
+  font-weight: 900;
+  font-family: "Bungee Hairline";
+  font-size: 23px;
+}
+article {
+  padding-left: 6%;
+  font-size: 19px;
+  background-color: black;
+  color: white;
+}
+#tabela {
+  color: #bbbbbe;
 }
 aside {
   float: right;
+  background-image: url(fundo\ solução.jpg);
+  width: 600px;
+  height: 400px;
+  font-weight: 900;
+  font-size: 45px;
+  font-family: "Saira Stencil One";
+  text-align: center;
 }
 section {
   font-size: 19px;
   background-color: white;
-  color: black;
+  text-align: center;
+}
+.opções {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 footer {
-  background-color: #0d2b35;
+  background-color: white;
+  min-height: 17vh;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logofixgrande {
+  width: 500px;
+  justify-content: left;
+  align-items: left;
+}
+.rodapé {
+  width: 500px;
+  font-size: 17px;
+  line-height: 25px;
+  align-items: center;
+}
+.rodapédireita {
+  width: 500px;
+  line-height: 38px;
+  align-items: center;
 }
